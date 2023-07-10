@@ -1,0 +1,15 @@
+﻿{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "es5",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+  },
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

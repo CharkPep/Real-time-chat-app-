@@ -1,0 +1,40 @@
+#root {
+  margin: 0 0;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-container{
+  display: flex;
+  width: 100%;
+  min-height: 5rem;
+}
+
+button{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255,255,255,0.8);
+  border: none;
+  border-radius: 8px;
+  background-image: linear-gradient(to right bottom, #0c3f8b, #0e3373, #0d285d, #0b1d47, #081332);
+}
+
+button:focus{
+  border: none;
+  outline:0;
+}
+
+button:hover{
+  background-image: linear-gradient(to right bottom, #1251ab, #134394, #1b439a, #122d70, #081332);
+}
+
+button:active{
+  transform: translateY(4px);
+}
+
+.banner-container{
+  padding: 10px;
+  aspect-ratio: 3/5;
+  background-image: linear-gradient(to right bottom, #0c8b64, #207348, #245d30, #22471b, #1c3208);
+}
